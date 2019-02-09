@@ -1,4 +1,4 @@
-# Monero-TipBot
+# DRGL Dragonglass-TipBot
 Discord Tipbot built in C++ for DRGL Dragonglass.
 
 Discord: http://discord.drgl.info
