@@ -1,7 +1,7 @@
 # Monero-TipBot
-Discord Tipbot built in C++ for Monero/IntenseCoin
+Discord Tipbot built in C++ for DRGL Dragonglass.
 
-Discord: https://discord.gg/TyD4jfU
+Discord: http://discord.drgl.info
 
 ## Compile
 
@@ -47,8 +47,8 @@ Discord: https://discord.gg/TyD4jfU
 * !buytickets [amount]
 
 ## Requirements
-* IntenseCon/Monero Daemon
-* IntenseCoin/Monero RPC
+* Dragonglass Daemon
+* Dragonglass RPC
 * Discord Token 
 * TCP Port 11000 to 11100 free to bind (can be redefined in config)
 
@@ -63,14 +63,14 @@ Discord: https://discord.gg/TyD4jfU
 * libssl-dev
 
 ## RPC Setup
-You need to download the RPC for the coin you want to setup the bot with, for example, IntenseCoin (https://github.com/valiant1x/intensecoin/releases). Unzip it to whereever you built the TIPBOT.
+You need to download the RPC for the coin you want to setup the bot with, for example, Dragonglass (https://github.com/ZirtysPerzys/dragonglass/releases). Unzip it to whereever you built the TIPBOT.
 
 ## Deamon setup
-Next you'll need to open the daemon for the coin, for example, `intensecoind` for IntenseCoin.
+Next you'll need to open the daemon for the coin, for example, `dragonglassd` for DRGL Dragonglass.
 
 The file structure should look like this:
-* intensecoind/monerocoind
-* intense-wallet-rpc/monero-wallet-rpc
+* dragonglassd
+* dragonglass-wallet-rpc
 * TIPBOT <- This programs executable. 
 * Wallets/ <-- this is a directory. This will be created after running TIPBOT.
 
@@ -88,3 +88,4 @@ Author: Brandan Tyler Lasley
 * BTC: 1KsX66J98WMgtSbFA5UZhVDn1iuhN5B6Hm
 * ITNS: iz5ZrkSjiYiCMMzPKY8JANbHuyChEHh8aEVHNCcRa2nFaSKPqKwGCGuUMUMNWRyTNKewpk9vHFTVsHu32X3P8QJD21mfWJogf
 * XMR: 44DudyMoSZ5as1Q9MTV6ydh4BYT6BMCvxNZ8HAgeZo9SatDVixVjZzvRiq9fiTneykievrWjrUvsy2dKciwwoUv15B9MzWS
+* DRGL: 
